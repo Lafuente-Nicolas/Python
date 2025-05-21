@@ -219,3 +219,21 @@ print("Subtraction: ", mo.subtract(num1, num2))
 print("Multiplication: ", mo.multiply(num1, num2))
 print("Division: ", mo.divide(num1, num2))
 ```
+# Jour 4
+
+## Lists
+```python
+ Lenom = [1,2,3,4]
+print(Lenom[2]) # ça s'arrete a 3 car le 1 est l'index donc 0, le 2 = 1...
+print(Lenom[-1]) # cela va donner le dernier chiffre donc 4 , -2 = 3...
+
+
+Lenom.append("orange") # ajoute "orange" à la liste
+Lenom.insert(1, "grape") # ajoute "grape" et devient l'index 1
+
+Lenom.remove("4") # supprime le numéro 4
+Lenom.pop() #enlève le dernier élément de la liste
+
+sliced_Lenom = Lenom[1:3] # prend l'index 1 (2) et 2 (3)
+```
+## Tubles
