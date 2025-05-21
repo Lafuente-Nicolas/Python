@@ -25,3 +25,38 @@ print("Tupple: ", tuple_var)
 print("Dictionary Value:", dict_var["role"])
 print("Boolean: ", bool_var)
 ```
+# jour 2
+
+## Example 1: Checking a condition
+```python
+ num = -50
+ if num > 0:
+    print("Positive Number")
+ elif num == 0: # elif (else if en js)
+     print("Zero")
+ else:
+     print("Negative Number")
+```
+## Example 2: Nested conditions (conditions imbriquées)
+```python
+ age = 3
+ if age > 18:
+    if age < 30: # 2 if car 2 conditions
+       print("Young Adult")
+    else:
+        print("Adult")
+```
+## Loops (boucle)
+
+### Loop through a list
+```python
+fruits = ["apple", "banana", "cherry"]
+ for leNomdeLavariable in fruits:
+     print(fruit)
+```
+
+### Loop with range
+```python
+ for i in range(5): #va parcourir la liste[0,1,2,3,4]
+     print(i)
+```
