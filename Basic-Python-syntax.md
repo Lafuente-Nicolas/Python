@@ -60,3 +60,36 @@ fruits = ["apple", "banana", "cherry"]
  for i in range(5): #va parcourir la liste[0,1,2,3,4]
      print(i)
 ```
+
+
+ ### Count down from 5 (compte a rebours)
+```python
+ count = 5
+ while count > 0:
+     print(count)
+    count -= 1
+
+    print("Outside For Loop")
+```
+### for i in range(10):
+
+   if i % 2 == 0:
+       continue
+     print(i)
+
+
+# for i in range(10):
+```python
+     if i == 5:
+         break # la boucle s'arrete a 5 avec break 
+     print(i)
+```
+# print("Outside For Loop")
+
+```python
+ Count down from 5
+ count = 5
+ while count > 0:
+     print(count)
+    count -= 1
+```
