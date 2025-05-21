@@ -237,3 +237,45 @@ Lenom.pop() #enlève le dernier élément de la liste
 sliced_Lenom = Lenom[1:3] # prend l'index 1 (2) et 2 (3)
 ```
 ## Tubles
+
+```python
+Lenom = ("red", "green","blue")
+single_item = ("glass",) # tuble a 1 élément
+
+print(Lenom[-1]) # bleu
+```
+## Dictionary 
+```python
+ student = {"name": "Alice", "age": 25, "grade": "A"} # name est une clé
+
+ student["subject"] = "Math" # [] car on rajoute une clé
+student["age"] = 32 # on met a jour l'age
+
+for key, value in student.items():  # itération
+    print(key, value) # Cela va sortir les valeurs une par une
+
+
+ del student["grade"] # pour supprimer
+ student.pop("subject") # obliger de mettre une clé entre () pas comme les listes
+```
+## Sets (ensemble)
+
+Des ensembles sont des connections non-ordonnées d'éléments unique.
+
+```python
+numbers ={1, 2, 3, 4}
+
+numbers.add(5) # ajoute le 5 dans les éléments 
+numbers.add(4) # n'ajoute rien que 4 est deja présent
+numbers.add(2) # supprime l'élément 2
+empty_set = set() # Ensemble vide
+```
+
+```python
+ set1 = {1, 2, 3}
+ set2 = {3, 4, 5}
+
+print(set1 | set2) # | veut dire union cela donne {1, 2, 3, 4, 5}
+print(set1 & set2) # & veut dire intersection cela ressort {3} car c'est il ressort les doublons
+print(set1 - set2) # - veut dire différence, cela sort la différence du premier set donc {1, 2}
+```
