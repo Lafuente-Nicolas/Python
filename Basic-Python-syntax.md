@@ -155,3 +155,35 @@ while True:
     else:
         print("Invclid choice. Please try again.") # imaginons il appuit sur 9, il y a rien
 ```
+# Jour 3
+
+## Fonctions
+
+__fonction = def__
+```python 
+def function_name(parameters):
+     #Code block
+   return result
+```
+## Modules 
+```python
+import math as m  # m = alias (l'utiliser quand il y a des longs modules)
+print(m.sqrt(16)) # sqrt = racine carré
+```
+### exercice 1 : Create a Function to calculate factorials
+
+`exemple factorial = 5 alors 5*4*3*2*1 = 120`
+
+```python
+def factorial(n):
+    if n == 0 or n == 1: 
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+def print_factorial(n): 
+    result = factorial(n)
+    print(f"The factorial of {n} is {result}")
+    
+print_factorial(5) # factorial de 5 = 120
+```
