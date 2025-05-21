@@ -317,3 +317,17 @@ for word in words:
         
 print(word_count) # retourne les mots de la phrase et combien de fois ils ont été dit
 ```
+# Jour 5
+
+## String methods
+
+- `.split()` = divise une chaine donc créer une liste
+- `.remplace` = remplace une chaine par une autre
+- `.join()` = join les éléments d'une liste à une chaine
+- `.strip` = enlève tout les espaces inutile
+
+## Regular expression for Pattern Matching (Regex)
+
+
+
+
