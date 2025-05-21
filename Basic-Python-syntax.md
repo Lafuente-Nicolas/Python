@@ -279,3 +279,41 @@ print(set1 | set2) # | veut dire union cela donne {1, 2, 3, 4, 5}
 print(set1 & set2) # & veut dire intersection cela ressort {3} car c'est il ressort les doublons
 print(set1 - set2) # - veut dire différence, cela sort la différence du premier set donc {1, 2}
 ```
+### Exercice 1 : Manipulate Data in a Dictionary
+```python
+person = {"name": "Alice", "age": 25, "grade": "A"}
+
+print(person)
+
+# Add new key-value pair
+person["address"] = "123 Main St"
+
+# Update Age
+person["age"] = 32
+
+# Remove grade
+if "grade" in person:
+    del person["grade"]
+    
+print(person)
+```
+### Exerice 2 :  Word Frequency counter (fréquence des mots)
+```python
+sentence = input("Enter a Sentence: ")
+
+# Split the sentence into words
+words = sentence.split()
+
+# Initialize blank Dictionary 
+word_count = {} 
+
+# Count word frequence
+for word in words:
+    word = word.lower() # .lower retourne tout en minuscule
+    if word in word_count:
+        word_count[word] += 1
+    else:
+        word_count[word] = 1
+        
+print(word_count) # retourne les mots de la phrase et combien de fois ils ont été dit
+```
