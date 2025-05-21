@@ -187,3 +187,35 @@ def print_factorial(n):
     
 print_factorial(5) # factorial de 5 = 120
 ```
+### exemple maths opérations and import
+Imaginons que le fichiers se nomme math_operations
+
+```python
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Division by zero is not allowed"
+```
+et la qu'on veut appeler ce fichier pour les fonctions 
+
+```python 
+import math_operations as mo # mo = on fait un alias comme le nom est long
+
+num1 = 10
+num2 = 5
+
+print("Addition: ", mo.add(num1, num2))
+print("Subtraction: ", mo.subtract(num1, num2))
+print("Multiplication: ", mo.multiply(num1, num2))
+print("Division: ", mo.divide(num1, num2))
+```
